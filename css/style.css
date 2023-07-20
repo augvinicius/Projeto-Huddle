@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: contain;
+    background-color: var(--violet-bg);
+    font-family: 'Open Sans', sans-serif;
+    max-width: var(--max-widht-size);
+}
+
+.logo {
+    margin-top: 4rem;  
+    margin-left: 4%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7rem;
+    margin-left: 4%;
+}
+
+.cabecalho .cabecalho-text {
+    padding: 3.5rem;
+    max-width: 600px;
+}
+
+.cabecalho .cabecalho-text h2 {
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+    max-width: 450px;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho .cabecalho-text p {
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 2.5rem;
+    margin-bottom: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho .cabecalho-text a {
+    background-color:white;
+    font-family: 'Poppins', sans-serif;
+    color: var(--violet-bg);
+    font-size: 1.5rem;
+    padding: 10px 45px;
+    border-radius: 30px;
+}
+
+.cabecalho .cabecalho-text a:hover{
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5rem;
+}
+
+.icones {
+    display: flex;
+}
+
+.footer .icones i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    margin: 8px;
+    color: rgba(255, 255, 255, 0.8);;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer .icones a i:hover {
+    border: 2px solid var(--soft-magenta);
+    color: var(--soft-magenta); 
+    transition: 0.2s;
+}
