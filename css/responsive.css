@@ -1,3 +1,21 @@
+@media (min-width: 1440px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+        background-position: center center;
+    }
+
+    .cabecalho {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        width: 80vw;
+    }
+}
+
 @media (max-width: 1024px) {
     .cabecalho {
         flex-direction: column;

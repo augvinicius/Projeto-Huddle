@@ -19,7 +19,6 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: flex-start;
     margin-top: 7rem;
     margin-left: 4%;
 }
@@ -58,6 +57,7 @@ body {
 .cabecalho .cabecalho-text a:hover{
     background-color: var(--soft-magenta);
     color: white;
+    box-shadow: 0px 10px 19px -1px rgba(0, 0, 0, 0.30);
 }
 
 .footer {
@@ -66,11 +66,11 @@ body {
     padding: 5rem;
 }
 
-.icones {
+.icones ul {
     display: flex;
 }
 
-.footer .icones i {
+.footer .icones ul li a i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ body {
 }
 
 .footer .icones a i:hover {
-    border: 2px solid var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
     color: var(--soft-magenta); 
     transition: 0.2s;
 }
